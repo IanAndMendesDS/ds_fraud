@@ -124,7 +124,8 @@ métodos para tratar esse problemas, tais como:
 - Calibração
 Não sou muito fã de SMOTE pois o SMOTE tende a quebrar a calibração do modelo
 Assista o video com a explicação: https://youtu.be/6YnhoCfArQo?list=LL
-E também podemos usar uma outra métrica chamada de Acurácia Balanceada que ela leva em consideração essas diferenças
+
+Também podemos usar uma outra métrica chamada de Acurácia Balanceada que ela leva em consideração essas diferenças
 Foi utilizado um cross validation estratificado de 5 folds, mantendo a estratificação das samples, ou sejá mantendo um número balanceado de casos positivos e negativos em cada fold.
 
 ## Próximos Passos
@@ -135,6 +136,7 @@ Foi utilizado um cross validation estratificado de 5 folds, mantendo a estratifi
 - Unit Tests
 
 Como só o treino do modelo CATBoost demora cerca de ~30min na minha maquina, para fazer um fine-tunning como um for iria demorar muito, então está como próximos passos.
+
 O deploy do modelo/ técnicas de CI/CD e teste unitários já estão arquitetados, faltando somente o deploy e alguns bugfixes.
 
 
